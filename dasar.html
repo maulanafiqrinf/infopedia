@@ -1,0 +1,682 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Infopedia</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/logo1.png" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500&family=Jost:wght@500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+
+    <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+
+    <link rel="stylesheet" href="css/aos.css">
+
+    <link rel="stylesheet" href="css/ionicons.min.css">
+
+    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+    <!-- <link rel="stylesheet" href="css/jquery.timepicker.css"> -->
+
+
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/icomoon.css">
+    <!-- <link rel="stylesheet" href="css/style1.css"> -->
+    <!-- <link rel="stylesheet" href="css/style.css"> -->
+    <link href="css/dasar.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="container-xxl bg-white p-0">
+        <!-- Spinner Start -->
+        <div id="spinner"
+            class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+            <div class="spinner-grow text-primary" style="width: 3rem; height: 3rem;" role="status">
+                <span class="sr-only">Loading...</span>
+            </div>
+        </div>
+        <!-- Spinner End -->
+        <!-- Navbar & Hero Start -->
+        <div class="container-xxl position-relative p-0">
+            <nav class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0">
+                <a href="index.html" class="navbar-brand p-0">
+                    <!-- <h1 class="m-0">Infopedia</h1> -->
+                    <img src="img/logo.png" alt="Logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                    <span class="fa fa-bars"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav mx-auto py-0">
+                        <a href="pengertian.html" class="nav-item nav-link">Pengertian Informatika</a>
+                        <a href="karir.html" class="nav-item nav-link">Peluang Kerja</a>
+                        <a href="riset.html" class="nav-item nav-link">Riset Informatika</a>
+                        <a href="bahasa.html" class="nav-item nav-link">Bahasa Pemrograman</a>
+                        <a href="dasar.html" class="nav-item nav-link">Dasar pemrograman</a>
+                    </div>
+                </div>
+            </nav>
+
+            <div class="container-xxl py-5 bg-primary hero-header">
+                <div class="container my-5 py-5 px-lg-5">
+                    <div class="row g-5 py-5">
+                        <nav aria-label="breadcrumb">
+                            <ol class="breadcrumb justify-content-center">
+                                <li class="breadcrumb-item"><a class="text-white" href="index.html">Home</a></li>
+                                <li class="breadcrumb-item text-white active" aria-current="page">Dasar pemrograman
+                                </li>
+                            </ol>
+                        </nav>
+                        <div class="col-12 text-center">
+                            <hr class="bg-white mx-auto mt-0" style="width: 300px;">
+                            <h1 class="text-white animated slideInDown">Dasar pemrograman</h1>
+                            <hr class="bg-white mx-auto mt-0" style="width: 300px;">
+                            <br />
+
+                            <p>
+                                <font color="#fffff">Dasar Pemograman adalah suatu kegiatan yang sangat penting untuk
+                                    memperkuat landasan pengetahuan kita mengenai konsep dasar pemograman. Dasar
+                                    pemrograman yakni sebuah pembelajaran dengan mengajarkan dasar dasar pemrograman
+                                    secara universal. Apabila kita telah menguasai dasar-dasar pemrograman, kita dapat
+                                    dengan mudah mempelajari berbagai bahasa pemrograman dengan mudah dan menyenangkan.
+                                </font>
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Navbar & Hero End -->
+
+        <section class="ftco-section bg-light">
+            <div class="container">
+                <div class="row justify-content-center mb-5">
+                    <div class="col-md-7 text-center heading-section ftco-animate">
+                        <br />
+                        <h2 class="mb-4">Variable & Tipe Data</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 ftco-animate">
+                        <div id="accordion">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="card">
+                                        <div class="card-header">
+                                            <center>
+                                                <a class="card-link" data-toggle="collapse" href="#menuone"
+                                                    aria-expanded="true" aria-controls="menuone">Variabel</a>
+                                            </center>
+                                        </div>
+                                        <div id="menuone" class="collapse show">
+                                            <div class="card-body">
+                                                <p align="justify">
+                                                    <strong>Variable</strong> merupakan sebuah wadah untuk menyimpan
+                                                    suatu nilai
+                                                    yang digunakan dalam
+                                                    sebuah progman dan nilai tersebut dapat berubah selama program
+                                                    mengalami proses
+                                                    eksekusi.
+                                                    <br />
+                                                    contoh : nama, umur, tinggi badan, dll
+                                                    <br />
+                                                    <br />
+
+                                                    <strong>Konstanta</strong> merupakan satuan yang nilainya tidak akan
+                                                    berubah
+                                                    selama program
+                                                    mengalami proses eksekusi. contoh phi dalam sebuah program mencari
+                                                    keliling atau
+                                                    luas lingkaran.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <br/>
+                                <div class="col-md-6">
+                                    <div class="card">
+                                        <div class="card-header">
+                                            <center>
+                                                <a class="card-link" data-toggle="collapse" href="#menu4"
+                                                    aria-expanded="false" aria-controls="menu4">Tipe Data</a>
+                                            </center>
+                                        </div>
+                                        <div id="menu4" class="collapse">
+                                            <div class="card-body">
+                                                <p align="justify">
+                                                    <strong>tipe data </strong> merupakan sebuah pengelompokan data
+                                                    sesuai tipe
+                                                    tertentu yang berfungsi
+                                                    untuk memberitahu compiler bagaimana data tersebut ingin di olah.
+                                                    <br />
+                                                    <br />
+                                                    contoh :
+                                                    <br />
+                                                    <strong>1.</strong> String - Untuk kalimat
+                                                    <br />
+                                                    <strong>2.</strong> Integer,long, short, byte - untuk bilangan bulat
+                                                    <br />
+                                                    <strong>3.</strong> Boolean - untuk data logic
+                                                    <br />
+                                                    <strong>4.</strong> Char - untuk data 1 karakter
+                                                    <br />
+                                                    <strong>5.</strong> Array - Kumpulan tipe data sejenis
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="ftco-section bg-light">
+            <div class="container">
+                <div class="row justify-content-center mb-5">
+                    <div class="col-md-7 text-center heading-section ftco-animate">
+                        <br />
+                        <h2 class="mb-4">Operator Dasar</h2>
+                        <p>Operator adalah suatu simbol yang
+                            digunakan untuk memberi perintah kepada komputer yang
+                            berguna untuk melakukan aksi terhadap satu atau lebih operasi.</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 ftco-animate">
+                        <div id="accordion">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="card">
+                                        <div class="card-header">
+                                            <center>
+                                                <a class="card-link" data-toggle="collapse" href="#menu1"
+                                                    aria-expanded="true" aria-controls="menu1">Operator Aritmatika</a>
+                                            </center>
+                                        </div>
+                                        <div id="menu1" class="collapse show">
+                                            <div class="card-body">
+                                                <p align="justify">
+                                                    Operator Aritmatika dugunaka untuk melakukan operasi Aritmatika
+                                                    yang terdiri
+                                                    dari penjumlahan, pengurangan, perkalian, pembagian dan modulus.
+                                                    <br />
+                                                    <br />
+                                                    1.<b>Tambahan (+)</b>
+                                                    <br />
+                                                    Jenis operator aritmatika tambahan dalam bahasa pemrograman
+                                                    dilambangkan dengan simbol "+". Penambahan berguna untuk menambahkan
+                                                    satu operan ke operan lainnya. Misalnya, A = 10 dan B = 5. Jika Anda
+                                                    ingin menambahkan keduanya, gunakan operator '+' di antara keduanya
+                                                    seperti ini: Jika X = A + B, operasinya menjadi X = 15.
+                                                    <br />
+                                                    2.<b>Pengurangan (-)</b>
+                                                    <br />
+                                                    Pengurangan jenis operator aritmatika dalam bahasa pemrograman
+                                                    dilambangkan dengan simbol (-). Pengurangan digunakan untuk
+                                                    mengurangi satu operan dari yang lain. Misalnya, X = 21 dan Y = 7.
+                                                    Operasi pengurangan dapat dilakukan dengan menulis N = X - Y dan
+                                                    hasilnya adalah N = 14.
+                                                    <br />
+                                                    3.<b>Perkalian (*)</b>
+                                                    <br />
+                                                    Jenis operator perkalian aritmatika dalam bahasa pemrograman
+                                                    dilambangkan dengan simbol (*). Pengurangan berguna untuk mengalikan
+                                                    satu operan dengan operan lainnya. Dalam bahasa pemrograman,
+                                                    perkalian dapat ditulis sebagai a = 5 * 2 atau dengan nilai variabel
+                                                    sebagai a = b * c . Misalnya, jika b = 4 dan c = 5, maka a = 20.
+                                                    <br />
+                                                    4.<b>Distribusi (/)</b>
+                                                    <br />
+                                                    Jenis operator pembagian aritmatika dalam bahasa pemrograman
+                                                    dilambangkan dengan simbol (/). Pengurangan berguna untuk membagi
+                                                    satu operan dengan operan lainnya. Seperti penjumlahan, pengurangan,
+                                                    dan perkalian, pembagian juga dapat ditulis secara langsung.
+                                                    Misalnya, jika x = 14/2, hasilnya adalah x = 7. Atau tulis dalam
+                                                    variabel seperti x = b / a. Nilai x = 7 jika b = 14 dan a = 2.
+                                                    <br />
+                                                    5.<b>Modulus (%)</b>
+                                                    <br />
+                                                    Ikon mod adalah contoh operator yang mengembalikan angka dari hasil
+                                                    bagi. Mod atau modulus adalah sisa hasil bagi dalam bahasa
+                                                    pemrograman, ditulis dengan simbol (%). Menurut Khan Academy,
+                                                    operator % biasanya mengembalikan sisanya setelah pembagian untuk
+                                                    menemukan bilangan genap dan ganjil. Misalnya, jika x = 4 % 2, maka
+                                                    x adalah 0. Karena 4 habis dibagi 2. Namun, jika perintahnya adalah
+                                                    x = 5 % 2, maka x adalah 1.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <br />
+                                    <div class="card">
+                                        <div class="card-header">
+                                            <center>
+                                                <a class="card-link" data-toggle="collapse" href="#menu5"
+                                                    aria-expanded="false" aria-controls="menu5">Operator Logika</a>
+                                            </center>
+                                        </div>
+                                        <div id="menu5" class="collapse">
+                                            <div class="card-body">
+                                                <p align="justify">
+                                                    Operator Logika yaitu operator yang digunakan untuk membuat operasi
+                                                    logika
+                                                    <br />
+                                                    <br />
+                                                    Mengutip dari buku Sakti Book of PHP Series Web Programming karya
+                                                    Mundzir MF, operator logika digunakan untuk membandingkan dua
+                                                    kondisi logika. Jadi "Benar" berarti logikanya benar, dan "Salah"
+                                                    berarti logikanya salah. Operator logika dasar dari jenis berikut
+                                                    adalah:
+                                                    <br />
+                                                    1. DAN dan &&
+                                                    <br />Operator AND dan && mengembalikan nilai logika "True" jika
+                                                    kedua operan benar.
+                                                    <br />2. OR dan ||
+                                                    <br />Operator || dan OR mengembalikan true jika salah satu operan
+                                                    benar.
+                                                    <br />3.XOR
+                                                    <br />Operator XOR mengembalikan TRUE jika salah satu operan benar
+                                                    tetapi tidak keduanya.
+                                                    <br />4. NOT
+                                                    <br />Operator NOT dengan tanda seru (!) mengembalikan nilai true
+                                                    jika salah satu operan salah.
+                                                    <br />
+                                                    <!-- Bug logika sulit dideteksi dengan operasi logika seperti ini, jadi
+                                                    yang terbaik adalah mengujinya terlebih dahulu.
+                                                    <br />Contoh platform dan situs populer yang menggunakan bahasa
+                                                    pemrograman PHP adalah Facebook, Wikipedia, WordPress, Yahoo!, dan
+                                                    Tumblr. -->
+
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <br/>
+                                    <div class="card">
+                                        <div class="card-header">
+                                            <center>
+                                                <a class="card-link" data-toggle="collapse" href="#menu11"
+                                                    aria-expanded="false" aria-controls="menu11">Operator increment</a>
+                                            </center>
+                                        </div>
+                                        <div id="menu11" class="collapse">
+                                            <div class="card-body">
+                                                <p align="justify">
+                                                    Increment digunakan untuk menambah nilai variable sebanyak 1 angka. Cara penulisannya menggunakan tanda tambah sebanyak 2 kali untuk Increment
+                                                    <br/>
+                                                    Increment digunakan untuk loop yang nilainya bertambah/bertambah.
+                                                    <br/>
+                                                    Tulis: a++, a+=1, x+=5
+                                                    <br/>
+                                                    2 jenis operator increment :
+                                                    <br/>
+                                                    1.	++$a Pre-increment : menambahkan nilai $a sebanyak 1, lalu kirim nilai.
+                                                    <br/>
+                                                    2.	$a++ Post-increment : kirim nilai $a, lalu menambahkan nilai $a sebanyak 1.
+                                                    <br/>
+                                                    Melihat hasilnya, Post-Increment pertama-tama menampilkan hasil dan kemudian menambahkan satu angka ke nilai variabel $a. Namun, tidak seperti Pre-Increment, sejumlah 1 ditambahkan ke $a untuk menampilkan nilai baru.
+                                                     
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <br/>
+
+                                <div class="col-md-6">
+                                    <div class="card">
+                                        <div class="card-header">
+                                            <center>
+                                                <a class="card-link" data-toggle="collapse" href="#menu2"
+                                                    aria-expanded="true" aria-controls="menu2">Operator Relasi</a>
+                                            </center>
+                                        </div>
+                                        <div id="menu2" class="collapse show">
+                                            <div class="card-body">
+                                                <p align="justify">
+                                                    Operator perbandingan/kesetaraan adalah operator yang digunakan
+                                                    untuk menentukan hubungan antara dua operan. Operator perbandingan
+                                                    ditempatkan untuk membandingkan dua ekspresi dan menentukan apakah
+                                                    hasil operasi itu benar. Misalnya, untuk menentukan apakah nilai
+                                                    suatu variabel lebih besar atau sama dengan satu sama lain. Hasil
+                                                    dari operasi tersebut adalah benar (true) atau salah (false).
+                                                    <br />
+                                                    <br />
+                                                    1. Operator persamaan: Dilambangkan dengan simbol `==`, operator
+                                                    memeriksa apakah dua nilai operan sama. Mengembalikan nilai true
+                                                    jika mereka sama, false sebaliknya. Misalnya, 5==5 benar.
+                                                    <br />
+                                                    2. Not Equal Operator: Operator yang dilambangkan dengan simbol `!=`
+                                                    memeriksa ketidaksetaraan jika nilai dua operan sama. Mengembalikan
+                                                    nilai true jika tidak sama, false jika tidak. Misalnya, 5!=5 salah.
+                                                    <br />
+                                                    3. lebih dari operator: lebih-operan, diwakili oleh simbol `>`,
+                                                    menguji apakah operan pertama lebih besar dari operan kedua.
+                                                    Mengembalikan nilai true jika benar, false jika sebaliknya.
+                                                    Misalnya, 6>5 benar.
+                                                    <br />
+                                                    4. Less Than Operator: Operator kurang dari, diwakili oleh simbol "
+                                                    <", menguji apakah operan pertama lebih kecil dari operan kedua.
+                                                        Mengembalikan nilai true jika benar, false jika sebaliknya.
+                                                        Misalnya: 6<5>=`, operator memeriksa apakah nilai operan pertama
+                                                        lebih besar atau sama dengan nilai operan kedua. Mengembalikan
+                                                        nilai true jika benar, false jika sebaliknya. Misalnya, 5>=5
+                                                        benar.
+                                                        <br />
+                                                        6. Kurang dari operator: Operator yang dilambangkan dengan
+                                                        simbol `<=` memeriksa apakah nilai operan pertama lebih kecil
+                                                            atau sama dengan nilai operan kedua. Mengembalikan nilai
+                                                            true jika benar, false jika sebaliknya. Misalnya, 5<=5
+                                                            benar. </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <br />
+                                    <div class="card">
+                                        <div class="card-header">
+                                            <center>
+                                                <a class="card-link" data-toggle="collapse" href="#menu6"
+                                                    aria-expanded="false" aria-controls="menu6">Operator Ternary</a>
+                                            </center>
+                                        </div>
+                                        <div id="menu6" class="collapse">
+                                            <div class="card-body">
+                                                <p align="justify">
+                                                    Operator Ternary yaitu operator yang sangat unik yang berfungsi
+                                                    untuk membuat
+                                                    seoerti sebuah pertanyaan. Simbol yang digunakan yaitu menggunakan
+                                                    tanda tanya
+                                                    (?) dan titik dua (:) untuk memisahkan jawabannya.
+                                                    <br />
+                                                    <br />
+                                                    Operator ternary digunakan untuk mempersingkat deskripsi if else,
+                                                    tetapi if else hanya digunakan untuk memberikan nilai pada variabel
+                                                    berdasarkan kondisi tertentu. Sintaks penulisannya adalah:
+                                                    <br />
+                                                    variabel = kondisi ?if_true:if_false;
+                                                    <br />
+                                                    return(kondisi?if_true:if_false);
+                                                    <br />
+                                                    contoh:
+                                                    <br />
+                                                    #include <iostream>
+                                                        <br />using namespace std;
+
+                                                        <br />int main(){
+                                                        <br /> int angka;
+                                                        <br /> string ganjil_genap;
+                                                        <br />
+                                                        cout << "angka:" ; cin>> angka;
+                                                            <br /> ganjil_genap=(angka % 2 ==0)?"genap":"ganjil";
+
+                                                            <br /> cout
+                                                            << angka << " adalah angka " << ganjil_genap; <br /> return
+                                                            0;
+                                                            <br />
+                                                            }
+                                                            <br />
+                                                            Seperti yang tertulis di atas, operator ternary adalah
+                                                            singkatan dari if yang digunakan untuk memberikan nilai pada
+                                                            suatu variabel. Menggunakan if, kode program di atas
+                                                            menjadi:
+                                                            #include <iostream>
+                                                                <br />
+                                                                using namespace std;
+                                                                <br />
+                                                                int main(){
+                                                                <br />
+                                                                int angka;
+                                                                <br />
+                                                                string ganjil_genap;
+                                                                <br />
+
+                                                                cout << "angka:" ; cin>> angka;
+                                                                    <br />
+                                                                    if(angka % 2 ==0)ganjil_genap="genap";
+                                                                    <br />
+                                                                    else ganjil_genap="ganjil";
+                                                                    <br />
+
+                                                                    cout
+                                                                    << angka << " adalah angka " << ganjil_genap; <br />
+                                                                    return 0;
+                                                                    <br />
+                                                                    }
+                                                                    <br />
+                                                                    Pernyataan if lebih panjang, tetapi hasilnya sama
+                                                                    dengan contoh sebelumnya. Operator ternary adalah
+                                                                    alternatif singkat untuk menggunakan if dan else.
+                                                                    <br />
+                                                                    Return dengan Ternary Operator
+                                                                    <br />
+                                                                    Terner dapat digunakan untuk mengembalikan nilai
+                                                                    dalam suatu fungsi. Fungsi mengembalikan nilai yang
+                                                                    tunduk pada kondisi operator ternary.Contoh kode
+                                                                    programnya bisa kalian lihat di bawah ini.
+                                                                    <br />
+                                                                    #include <iostream>
+                                                                        <br />
+                                                                        using namespace std;
+                                                                        <br />
+                                                                        string fungsiku(int angka){
+                                                                        <br />
+                                                                        return (angka % 2 ==0)?"genap":"ganjil";
+                                                                        <br />}
+                                                                        <br />
+                                                                        int main(){
+                                                                        <br />int angka;
+                                                                        <br />string ganjil_genap;
+
+                                                                        <br />ganjil_genap=fungsiku(angka);
+                                                                        <br />cout << "angka:" ; cin>> angka;
+                                                                            <br />cout
+                                                                            << angka << " adalah angka " <<
+                                                                                ganjil_genap; <br />
+                                                                            return 0;
+                                                                            <br />}
+
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <br/>
+                                    <div class="card">
+                                        <div class="card-header">
+                                            <center>
+                                                <a class="card-link" data-toggle="collapse" href="#menu13"
+                                                    aria-expanded="true" aria-controls="menu13">Operator decrement</a>
+                                            </center>
+                                        </div>
+                                        <div id="menu13" class="collapse">
+                                            <div class="card-body">
+                                                <p align="justify">
+                                                    Decrement digunakan untuk mengurang nilai variable sebanyak 1 angka. Decrement menggunakan tanda kurang 2 kali dan untuk penempatan kedua tanda tersebut boleh sebelum variable atau sesudah variable.
+                                                    <br/>
+                                                    <br/>
+                                                    Decrement digunakan untuk pengulangan dimana nilainya berkurang/berkurang.
+                                                    <br/>
+                                                    Tulis: x--, a-=1, x-=10
+                                                    <br/>
+                                                    2 jenis operator decrement:
+                                                    <br/>
+                                                    1.	--$a Pre-decrement : mengurangi nilai $a sebanyak 1, lalu kirim nilai.
+                                                    <br/>
+                                                    2.	$a-- Post-increment : kirim nilai $a, lalu mengurangi nilai $a
+                                                    <br/> 
+                                                    sebanyak 1.
+                                                    <br/>
+                                                    Melihat hasilnya, Post-Decrement pertama-tama menampilkan hasil dan kemudian menambahkan satu angka ke nilai variabel $a. Namun, tidak seperti Pre-Decrement, sejumlah 1 ditambahkan ke $a untuk menampilkan nilai baru.
+                                                    
+
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <br/>
+        <div class="container-xxl bg-primary newsletter py-5 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="container py-5 px-lg-5">
+                <div class="row justify-content-center">
+                    <div class="col-lg-7 text-center">
+                        <h4>
+                            <font color="#fffff">Code Editor</font>
+                            </h4> 
+                            <br />
+                            <br />
+                            <iframe src="https://www.online-ide.com" style="width: 100%; height: 600px"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="container-fluid bg-primary text-light footer wow fadeIn" data-wow-delay="0.1s">
+            <div class="container py-5 px-lg-5">
+                <div class="row g-5">
+                    <div class="col-md-6 col-lg-3">
+                        <p class="section-title text-white h5 mb-4">Alamat<span></span></p>
+                        <p><i class="fa fa-map-marker-alt me-3"></i>Jl. Mastrip, Krajan Timur, Sumbersari, Kec.
+                            Sumbersari, Kabupaten Jember, Jawa Timur 68121</p>
+                        <p><i class="fa fa-phone-alt me-3"></i>087864619332</p>
+                        <p><i class="fa fa-envelope me-3"></i>informaticpedia@gmail.com</p>
+                        <div class="d-flex pt-2">
+                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-outline-light btn-social"
+                                href="https://instagram.com/informaticpedia?igshid=YmMyMTA2M2Y="><i
+                                    class="fab fa-instagram"></i></a>
+                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <p class="section-title text-white h5 mb-4">Tautan<span></span></p>
+                        <a class="btn btn-link" href="pengertian.html">Pengertian Informatika</a>
+                        <a class="btn btn-link" href="karir.html">Peluang Kerja</a>
+                        <a class="btn btn-link" href="riset.html">Riset Informatika</a>
+                        <a class="btn btn-link" href="bahasa.html">Bahasa Pemrograman</a>
+                        <a class="btn btn-link" href="dasar.html">Dasar Pemrograman</a>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <p class="section-title text-white h5 mb-4">Bahasa Pemrograman<span></span></p>
+                        <div class="row g-2">
+                            <div class="col-4">
+                                <img class="img-fluid" src="img/icon-program/icons8-c-programming-96.png" alt="Image">
+                            </div>
+                            <div class="col-4">
+                                <img class="img-fluid" src="img/icon-program/icons8-css3-96.png" alt="Image">
+                            </div>
+                            <div class="col-4">
+                                <img class="img-fluid" src="img/icon-program/icons8-java-96.png" alt="Image">
+                            </div>
+                            <div class="col-4">
+                                <img class="img-fluid" src="img/icon-program/icons8-javascript-96.png" alt="Image">
+                            </div>
+                            <div class="col-4">
+                                <img class="img-fluid" src="img/icon-program/icons8-laravel-96.png" alt="Image">
+                            </div>
+                            <div class="col-4">
+                                <img class="img-fluid" src="img/icon-program/icons8-swift-96.png" alt="Image">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <p class="section-title text-white h5 mb-4">Tentang Kami<span></span></p>
+                        <p>Mahasiswa Prodi Teknik Informatika Jurusan Teknologi Informasi Politeknik Negeri Jember.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End -->
+
+
+        <!-- Back to Top -->
+        <a href="#" class="btn btn-lg btn-secondary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+    </div>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/isotope/isotope.pkgd.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+    <script src="lib/aos/aos.js"></script>
+    <script src="lib/glightbox/js/glightbox.min.js"></script>
+    <script src="lib/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="lib/swiper/swiper-bundle.min.js"></script>
+    <script src="lib/waypoints/noframework.waypoints.js"></script>
+    <script src="plugins/Isotope/isotope.pkgd.min.js"></script>
+    <script src="plugins/easing/easing.js"></script>
+    <script src="plugins/parallax-js-master/parallax.min.js"></script>
+    <!-- <script src="js/offers_custom.js"></script> -->
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+
+    <!--coba-->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery-migrate-3.0.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.easing.1.3.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/jquery.stellar.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/aos.js"></script>
+    <script src="js/jquery.animateNumber.min.js"></script>
+    <!-- <script src="js/bootstrap-datepicker.js"></script>
+    <script src="js/jquery.timepicker.min.js"></script> -->
+    <script src="js/scrollax.min.js"></script>
+    <!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"> -->
+    </script>
+    <script src="js/google-map.js"></script>
+    <!-- <script src="js/main4.js"></script> -->
+
+</body>
+
+</html>
